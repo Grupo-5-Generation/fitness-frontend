@@ -7,8 +7,9 @@ function Home() {
                 <div className="flex flex-col gap-5 text-white p-5 ">
                     <h1 className='mt-30 text-6xl  text-left text-shadow-lg/30 font-joti'>Projeto Fitness</h1>
                     <h2 className="text 4xl text-left  italic px-17">Upgrade no Corpo: Tecnologia e Saúde</h2>
-                    <h2 className='mt-30 text-3xl text-center font-bold'>Por Trás da Escolha</h2>
-                    < div className="m-12">
+                    <div className="mt-30 py-6 border-4 border-white bg-black/70 rounded-2xl">
+                        <h2 className='text-3xl text-center font-bold'>Por Trás da Escolha</h2>
+                    < div className="m-12 flex flex-col gap-2">
                         <p>Vivemos em uma era em que a tecnologia está presente em praticamente todos os aspectos da nossa vida.
                             Ao mesmo tempo, a busca por saúde, bem-estar e qualidade de vida nunca foi tão necessária.
                             Foi dessa união que nasceu a ideia do nosso projeto fitness: integrar inovação tecnológica e hábitos saudáveis para transformar a maneira como cuidamos do corpo e da mente.</p>
@@ -17,7 +18,7 @@ function Home() {
                             que abre espaço para soluções criativas e acessíveis.</p>
                         <p>Nosso objetivo é mostrar que a tecnologia não precisa afastar as pessoas do exercício físico — pelo contrário, ela pode ser a ponte para resultados melhores, mais rápidos e mais consistentes.</p>
                     <h2 className='mt-30 text-3xl text-center font-bold'>Sobre o Projeto</h2>
-                    < div className="m-12">
+                    < div className="m-12 flex flex-col gap-2">
                         <p>O GenPass é uma aplicação desenvolvida para facilitar o gerenciamento de treinos externos, voltada para quem busca praticidade e desempenho na rotina fitness.
                             Pensando em atletas, personal trainers e frequentadores de academia, o sistema oferece uma plataforma robusta que permite cadastrar, monitorar, atualizar e 
                             organizar treinos de forma simples e eficiente.</p>
@@ -40,6 +41,7 @@ function Home() {
                                 ajudando os usuários a alcançarem melhores resultados com eficiência e controle total da sua rotina de treinos.
                             </p>
                         </div>
+                    </div>
                     </div>
                 </div>
             </div>
