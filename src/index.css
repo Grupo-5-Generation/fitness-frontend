@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-joti: "Joti One", serif;
+}
